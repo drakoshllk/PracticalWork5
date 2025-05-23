@@ -8,5 +8,3 @@ def petya_task(array):
     else:
         product_between_min_max = math.prod(array[max_index + 1:min_index])
     return sum_positive_numbers, product_between_min_max
-
-array = random.sample(range(-100, 100), 15)
