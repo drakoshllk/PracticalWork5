@@ -1,5 +1,5 @@
 import random
 
-array = random.sample(range(-100, 100), 10)
+array = [random.randint(-100, 100) for _ in range(10)]
 for i in range(len(array)):
     array[i] *= -1
